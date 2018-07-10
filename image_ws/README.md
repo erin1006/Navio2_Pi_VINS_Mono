@@ -1,4 +1,4 @@
-This is the image processing component of this project
+# Image processing component of this project
 
 image_pub node: Publish /dev/video0 to /camera/image_raw 
 
@@ -12,4 +12,4 @@ Change your parameters in image_pub.cpp here:
   
 image_sub node: Display the image stream via image_viewer
 
-# ToDos: image_proc and features detection...  image processing will be done here
+// ToDos: image_proc and features detection...  image processing will be done here
