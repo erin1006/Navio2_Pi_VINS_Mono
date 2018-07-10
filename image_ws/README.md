@@ -5,7 +5,7 @@ image_pub node: Publish /dev/video0 to /camera/image_raw
 Change your parameters in image_pub.cpp here:
   // open camera at /dev/video0
   cv::VideoCapture cap(0); 
-   // set frame size and fps
+  // set frame size and fps
   cap.set(CV_CAP_PROP_FRAME_WIDTH,640);
   cap.set(CV_CAP_PROP_FRAME_HEIGHT,480);
   cap.set(CV_CAP_PROP_FPS,10);
